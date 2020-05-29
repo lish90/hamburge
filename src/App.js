@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import FoodCard from './component/FoodCard';
+import Counter from './component/Counter';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
               image="https://source.unsplash.com/400x300/?burger" >
       It's a good burger 
       </FoodCard>
+      <Counter></Counter>
      
     </div>
   );
